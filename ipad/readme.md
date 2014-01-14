@@ -1,4 +1,4 @@
-CSS3 iphone 4 Device
+CSS3 ipad Device
 ====================
 -index.html
 -ipad.css
