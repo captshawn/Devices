@@ -1,0 +1,121 @@
+span.resolution {
+font-size:.75em;
+font-weight:100;
+color:#aaa;
+}
+
+.device-image {
+position:relative;
+background:#666;
+float:left;
+}
+
+.device-image iframe {
+background:#fff;
+border:0;
+}
+
+.device-image .ear-piece,.device-image .camera,.device-image .button {
+position:absolute;
+background:rgba(0,0,0,0.15);
+left:50%;
+}
+
+.device-image .camera,.device-image .button {
+-webkit-border-radius:40px;
+-moz-border-radius:40px;
+-o-border-radius:40px;
+-ms-border-radius:40px;
+border-radius:40px;
+}
+
+.landscape {
+margin-left:275px;
+-webkit-transform:rotate(270deg);
+-moz-transform:rotate(270deg);
+-o-transform:rotate(270deg);
+-ms-transform:rotate(270deg);
+transform:rotate(270deg);
+}
+
+.landscape iframe {
+-webkit-transform:rotate(-270deg);
+-moz-transform:rotate(-270deg);
+-o-transform:rotate(-270deg);
+-ms-transform:rotate(-270deg);
+transform:rotate(-270deg);
+}
+
+.ios .button {
+height:67px;
+width:67px;
+margin-left:-33.5px;
+}
+
+.ios .button:after {
+content:"";
+border:2px solid rgba(255,255,255,0.75);
+height:27px;
+width:27px;
+display:block;
+position:absolute;
+top:50%;
+left:50%;
+-webkit-border-radius:5px;
+-moz-border-radius:5px;
+-o-border-radius:5px;
+-ms-border-radius:5px;
+border-radius:5px;
+margin:-13.5px 0 0 -13.5px;
+}
+
+.ios .ear-piece {
+height:15px;
+width:70px;
+margin-left:-35px;
+-webkit-border-radius:5px;
+-moz-border-radius:5px;
+-o-border-radius:5px;
+-ms-border-radius:5px;
+border-radius:5px;
+}
+
+.ios .camera {
+height:20px;
+width:20px;
+margin-left:-10px;
+}
+
+.iphone-5 {
+width:360px;
+height:778px;
+-webkit-border-radius:55px;
+-moz-border-radius:55px;
+-o-border-radius:55px;
+-ms-border-radius:55px;
+border-radius:55px;
+}
+
+.iphone-5 iframe {
+width:320px;
+height:504px;
+margin:121px 0 0 20px;
+}
+
+.iphone-5.landscape iframe {
+height:320px;
+width:504px;
+margin:210px 0 0 -75px;
+}
+
+.iphone-5 .button {
+bottom:44px;
+}
+
+.iphone-5 .ear-piece {
+top:71px;
+}
+
+.iphone-5 .camera {
+top:33px;
+}

@@ -1,0 +1,113 @@
+.device-image {
+position:relative;
+background:#666;
+float:left;
+}
+
+.device-image iframe {
+background:#fff;
+border:0;
+}
+
+.device-image .ear-piece,.device-image .camera,.device-image .button {
+position:absolute;
+background:rgba(0,0,0,0.15);
+left:50%;
+}
+
+.device-image .camera,.device-image .button {
+-webkit-border-radius:40px;
+-moz-border-radius:40px;
+-o-border-radius:40px;
+-ms-border-radius:40px;
+border-radius:40px;
+}
+
+.ios .button {
+height:67px;
+width:67px;
+margin-left:-33.5px;
+}
+
+.ios .button:after {
+content:"";
+border:2px solid rgba(255,255,255,0.75);
+height:27px;
+width:27px;
+display:block;
+position:absolute;
+top:50%;
+left:50%;
+-webkit-border-radius:5px;
+-moz-border-radius:5px;
+-o-border-radius:5px;
+-ms-border-radius:5px;
+border-radius:5px;
+margin:-13.5px 0 0 -13.5px;
+}
+
+.ios .ear-piece {
+height:15px;
+width:70px;
+margin-left:-35px;
+-webkit-border-radius:5px;
+-moz-border-radius:5px;
+-o-border-radius:5px;
+-ms-border-radius:5px;
+border-radius:5px;
+}
+
+.ios .camera {
+height:20px;
+width:20px;
+margin-left:-10px;
+}
+
+.iphone-4 {
+width:360px;
+height:711px;
+-webkit-border-radius:55px;
+-moz-border-radius:55px;
+-o-border-radius:55px;
+-ms-border-radius:55px;
+border-radius:55px;
+}
+
+.landscape {
+margin-left:275px;
+-webkit-transform:rotate(270deg);
+-moz-transform:rotate(270deg);
+-o-transform:rotate(270deg);
+-ms-transform:rotate(270deg);
+transform:rotate(270deg);
+}
+
+.iphone-4 iframe {
+width:320px;
+height:416px;
+margin:132px 0 0 20px;
+}
+
+.iphone-4.landscape iframe {
+height:320px;
+width:416px;
+-webkit-transform:rotate(90deg);
+-moz-transform:rotate(90deg);
+-o-transform:rotate(90deg);
+-ms-transform:rotate(90deg);
+transform:rotate(90deg);
+margin:179px 0 0 -28px;
+}
+
+.iphone-4 .button {
+bottom:49px;
+}
+
+.iphone-4 .ear-piece {
+top:58px;
+}
+
+.iphone-4 .camera {
+left:99px;
+top:54px;
+}
